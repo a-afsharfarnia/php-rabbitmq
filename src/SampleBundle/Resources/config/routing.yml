@@ -1,0 +1,4 @@
+rabbitmq_api_student:
+  resource:   "@SampleBundle/Controller/StudentController.php"
+  type:       annotation
+  prefix:     /student

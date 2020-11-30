@@ -1,0 +1,41 @@
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil to method sun.java2d.SunGraphicsEnvironment.isUIScaleEnabled()
+WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2020-08-03 15:45:39,672 [   2929]   WARN - llij.ide.plugins.PluginManager - Problems found loading plugins:
+  The OXID Plugin (id=de.espend.idea.oxid, path=~/.local/share/JetBrains/PhpStorm2020.1/idea-php-oxid.jar, version=0.5) plugin requires "fr.adrienbrault.idea.symfony2plugin" plugin to be installed 
+2020-08-03 15:45:40,353 [   3610]   WARN - pi.util.registry.RegistryValue - The registry key 'ide.index.image.max.size' accessed, but not loaded yet 
+2020-08-03 15:45:40,716 [   3973]   WARN - Container.ComponentManagerImpl - Do not use constructor injection (requestorClass=org.jetbrains.plugins.phpstorm.PhpStormInitialConfigurator) 
+2020-08-03 15:45:45,949 [   9206]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  Problems View) or icon jar:file:/snap/phpstorm/173/lib/icons.jar!/general/warning.svg 
+2020-08-03 15:45:46,124 [   9381]   WARN - ion.impl.NotificationCollector - Notification group 'Project generator' is already registered in whitelist 
+2020-08-03 15:45:46,124 [   9381]   WARN - ion.impl.NotificationCollector - Notification group 'System Messages' is already registered in whitelist 
+2020-08-03 15:47:23,515 [ 106772]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  Problems View) or icon jar:file:/snap/phpstorm/173/lib/icons.jar!/general/warning.svg 
+2020-08-03 15:52:23,351 [ 406608]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  Problems View) or icon jar:file:/snap/phpstorm/173/lib/icons.jar!/general/warning.svg 
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil to method sun.java2d.SunGraphicsEnvironment.isUIScaleEnabled()
+WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2020-11-15 13:41:35,547 [   3759]   WARN - pi.util.registry.RegistryValue - The registry key 'ide.index.image.max.size' accessed, but not loaded yet 
+2020-11-15 13:41:35,951 [   4163]   WARN - Container.ComponentManagerImpl - Do not use constructor injection (requestorClass=org.jetbrains.plugins.phpstorm.PhpStormInitialConfigurator) 
+2020-11-15 13:41:39,603 [   7815]   WARN - ion.impl.NotificationCollector - Notification group 'Project generator' is already registered in whitelist 
+2020-11-15 13:41:39,603 [   7815]   WARN - ion.impl.NotificationCollector - Notification group 'System Messages' is already registered in whitelist 
+2020-11-15 13:41:41,609 [   9821]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  Problems View) or icon jar:file:/snap/phpstorm/173/lib/icons.jar!/general/warning.svg 
+2020-11-15 13:41:57,119 [  25331]   WARN -                 Symfony-Plugin - missing at least one container file 
+2020-11-15 13:41:57,302 [  25514]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  Problems View) or icon jar:file:/snap/phpstorm/173/lib/icons.jar!/general/warning.svg 
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.intellij.util.ReflectionUtil to field sun.awt.X11.XToolkit.awtAppClassName
+WARNING: Please consider reporting this to the maintainers of com.intellij.util.ReflectionUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2020-11-15 13:57:01,061 [   1160]   WARN - Container.ComponentManagerImpl - Do not use constructor injection (requestorClass=org.jetbrains.plugins.phpstorm.PhpStormInitialConfigurator) 
+2020-11-15 13:57:05,002 [   5101]   WARN - ion.impl.NotificationCollector - Notification group 'Project generator' is already registered in whitelist 
+2020-11-15 13:57:05,002 [   5101]   WARN - ion.impl.NotificationCollector - Notification group 'System Messages' is already registered in whitelist 
+2020-11-15 13:57:06,631 [   6730]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  Problems View) or icon jar:file:/snap/phpstorm/173/lib/icons.jar!/general/warning.svg 
+2020-11-15 14:13:09,551 [ 969650]   WARN -                 Symfony-Plugin - missing at least one container file 
+2020-11-15 14:13:09,734 [ 969833]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  Problems View) or icon jar:file:/snap/phpstorm/173/lib/icons.jar!/general/warning.svg 
+2020-11-15 14:38:57,160 [2517259]   WARN - om.intellij.util.FieldAccessor - Field not found: javafx.embed.swing.JFXPanel.scaleFactor 

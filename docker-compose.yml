@@ -1,0 +1,49 @@
+version: '3'
+services:
+  nginx:
+    image: nginx
+    restart: always
+    ports:
+      - "8081:80"
+    volumes:
+      - ./.docker/nginx/nginx.conf:/etc/nginx/conf.d/a-rabbitmq.conf
+      - .:/home/rabbitmq/project:ro
+
+  rabbitmq-app:
+    # sudo docker inspect rabbitmq-app -> 172.19.0.1:8081 -> rabbitmq.sample:8081
+    build: ./.docker/php/
+    container_name: rabbitmq-app
+    command: >
+      bash -c "chown -R rabbitmq:rabbitmq /home/rabbitmq/project && php-fpm"
+    volumes:
+      - .:/home/rabbitmq/project
+      - ./.docker/php/php-fpm.conf:/usr/local/etc/php-fpm.d/www.conf
+
+  db:
+    image: mariadb:10.2
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: rabbitmq_db
+      MYSQL_USER: rabbitmq_user
+      MYSQL_PASSWORD: rabbitmq_pass
+    logging:
+      driver: syslog
+      options:
+        tag: "{{.DaemonName}}(image={{.ImageName}};name={{.Name}};id={{.ID}})"
+    restart: on-failure
+    volumes:
+      - ../db:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+  rabbitmq:
+    image: "rabbitmq:3.7"
+    ports:
+      - "5672:5672"
+    volumes:
+      - ../rabbitmqdata:/var/lib/rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=rabbitmquser
+      - RABBITMQ_DEFAULT_PASS=some_password
+      - RABBITMQ_DEFAULT_VHOST=/
+
